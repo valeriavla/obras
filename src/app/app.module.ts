@@ -14,6 +14,15 @@ import { Menu } from './menu/menu.component';
 import { AppRoutingModule } from './app-routing.module';
 import { Mapa } from './mapa/mapa.component';
 import {MatButtonModule} from '@angular/material/button';
+import { Opinion } from './opinion/opinion.component';
+import {MatChipsModule} from '@angular/material/chips';
+import {MatListModule} from '@angular/material/list';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatExpansionModule} from '@angular/material/expansion';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+import { Comentarios } from './comentarios/comentarios.component';
+import {MatDividerModule} from '@angular/material/divider';
 
 @NgModule({
   declarations: [
@@ -22,6 +31,8 @@ import {MatButtonModule} from '@angular/material/button';
     Inicio,
     Menu,
     Mapa,
+    Opinion,
+    Comentarios
 
   ],
   imports: [
@@ -34,9 +45,18 @@ import {MatButtonModule} from '@angular/material/button';
     MatButtonToggleModule,
     AppRoutingModule,
     MatButtonModule,
+    MatChipsModule,
+    MatListModule,
+    MatGridListModule,
+    MatExpansionModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatDividerModule
 
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+  
+}
