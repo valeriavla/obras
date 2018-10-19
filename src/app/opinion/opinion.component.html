@@ -1,0 +1,45 @@
+<mat-card > 
+        <mat-card-title>Carretera Puebla-Atlixco,Tramo: Periférico Ecológico-Atlixco
+            </mat-card-title> 
+            <br>
+            <mat-card-content>
+                    <div share-square="true" share-links="Facebook, Twitter, LinkedIn, Google-Plus, Reddit, Tumblr" share-title="Article Title">aaa</div>
+                    <mat-chip-list>
+                            <mat-chip color="primary" selected><mat-icon>attach_money</mat-icon>MONTO TOTAL DE INVERSIÓN $467,617,569</mat-chip>
+                            <br>
+                            <mat-chip color="primary" selected><mat-icon>attach_money</mat-icon>MONTO EJERCIDO $70,997,373</mat-chip>
+                            <br>
+                            <mat-chip color="primary" selected> <mat-icon>home</mat-icon>AVANCE FÍSICO 25.9%</mat-chip>              
+                    </mat-chip-list>
+                    <br><br><br>
+                    <mat-grid-list cols="2" rowHeight="3:1">
+                            <mat-grid-tile> <span id=subt>Tipo de Proyecto: </span> Proyecto de Inversión de Infraestructura Económica</mat-grid-tile>
+                            <mat-grid-tile> <span id=subt>Meta física: </span> 4 carriles de circulación, 2 Entronques y 6 Pasos peatonales. </mat-grid-tile>
+                          </mat-grid-list>
+            </mat-card-content>
+            <mat-accordion>
+                    <mat-expansion-panel>
+                      <mat-expansion-panel-header>
+                        <mat-panel-title>
+                         Opine sobre esta obra
+                        </mat-panel-title>
+                      </mat-expansion-panel-header>
+                      <mat-chip color="primary" selected> <mat-icon>thumb_up</mat-icon>     </mat-chip>   
+                      <mat-chip color="primary" selected> <mat-icon>thumb_down</mat-icon></mat-chip>
+                      <br> <br>
+                      <mat-form-field appearance="outline">
+                            <mat-label> Comentario </mat-label>
+                            <input matInput placeholder="">
+                    </mat-form-field> 
+                    <br>
+                                    <input 
+                                    style="display: none" 
+                                    type="file" (change)="onFileChanged($event)" 
+                                    #fileInput>
+                                  <button mat-button (click)="fileInput.click()">Agrega una foto</button>
+                            <br>
+                            <button mat-button color="primary" selected >Enviar</button> <a mat-raised-button href="https://twitter.com/home?status=aaaa"><mat-icon>share</mat-icon></a><a mat-raised-button href="https://www.facebook.com/sharer/sharer.php?u=https%3A//stackoverflow.com/https://stackoverflow.com/"><mat-icon>android</mat-icon></a>
+                            
+                    </mat-expansion-panel>                    
+            </mat-accordion>
+</mat-card>
