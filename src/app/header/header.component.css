@@ -1,0 +1,12 @@
+.mat-button-toggle-group  {
+  width: 33%;
+ }
+ .mat-button-toggle {
+     width: 100%;
+    }
+    img {
+      border:1px solid #ddd;
+      border-radius: 4px;
+      padding: 0px;
+      width: 100px;
+    }

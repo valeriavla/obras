@@ -1,0 +1,15 @@
+mat-grid-tile {
+    background: rgb(88, 88, 214);
+    padding-left:5em;
+    align-content: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    color: white;
+  }
+
+mat-grid-content{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    color: white;
+    width: 100%;
+}

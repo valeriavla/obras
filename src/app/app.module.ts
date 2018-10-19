@@ -23,6 +23,16 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import { Comentarios } from './comentarios/comentarios.component';
 import {MatDividerModule} from '@angular/material/divider';
+import { CategoriasComponent } from './categorias/categorias.component';
+import { AniosSaludComponent } from './anios-salud/anios-salud.component';
+import { AniosCienciaComponent } from './anios-ciencia/anios-ciencia.component';
+import { AniosSeguridadComponent } from './anios-seguridad/anios-seguridad.component';
+import { AniosEducacionComponent } from './anios-educacion/anios-educacion.component';
+import { AniosComunicacionComponent } from './anios-comunicacion/anios-comunicacion.component';
+import { AniosHaciendaComponent } from './anios-hacienda/anios-hacienda.component';
+import { AniosInstitucionesComponent } from './anios-instituciones/anios-instituciones.component';
+import {MatTabsModule} from '@angular/material/tabs';
+import {MatTableModule} from '@angular/material/table';
 
 @NgModule({
   declarations: [
@@ -32,7 +42,16 @@ import {MatDividerModule} from '@angular/material/divider';
     Menu,
     Mapa,
     Opinion,
-    Comentarios
+    Comentarios,
+    CategoriasComponent,
+    AniosSaludComponent,
+    AniosCienciaComponent,
+    AniosSeguridadComponent,
+    AniosEducacionComponent,
+    AniosComunicacionComponent,
+    AniosHaciendaComponent,
+    AniosInstitucionesComponent,
+
 
   ],
   imports: [
@@ -51,7 +70,9 @@ import {MatDividerModule} from '@angular/material/divider';
     MatExpansionModule,
     MatFormFieldModule,
     MatInputModule,
-    MatDividerModule
+    MatDividerModule,
+    MatTabsModule,
+    MatTableModule
 
   ],
   providers: [],
